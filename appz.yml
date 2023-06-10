@@ -26,7 +26,7 @@ volumes:
 properties:
     ADMIN_PASSWORD:     
        vault: ADMIN_PASSWORD
-    PROM_URL: jojin77-dev-prometheus-2-17.delta.1276145f.lowtouch.cloud
+    PROM_URL: http://prometheus-2-17:9090
     GF_AUTH_GENERIC_OAUTH_ENABLED: false
     GF_AUTH_GENERIC_OAUTH_NAME: AppZ 
     GF_AUTH_GENERIC_OAUTH_CLIENT_ID: grafana
